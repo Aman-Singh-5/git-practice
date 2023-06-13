@@ -1,0 +1,168 @@
+*, :after, :before {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .container{
+    padding-right: 5rem;
+    padding-left: 5rem;
+  }
+  .nav-main{
+    align-items: center;
+    text-align: center;
+  }
+  .nav_section{
+    background-color: #f8f2ff;
+  }
+  .nav-item a{
+    color: black;
+  }
+  .navbar.nav_section{
+    height: 6rem;
+    padding: 10px 0px 0px;
+  }
+  .search_button{
+   
+    align-items: center;
+  }
+  
+  .img{
+    padding-right: 50px;
+    /* padding-left: 5rem; */
+  }
+  .logo_image{
+    height: 3rem;
+  }
+  
+  li.nav-item {
+    padding-right: 1.5rem;
+  }
+  
+  button.btn.btn-primary {
+    background: #F8F2FF;
+    padding: 8px 36px;
+    color: #121212;
+    font-size: 16px;
+    height: 3rem;
+    border-radius: 1rem;
+  }
+  
+  .second_comp{
+    background-color: #F8F2FF;
+    background-image: url(/public/images/bg-line.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 90% auto;
+    padding: 100px 0px 150px 0px;
+    position: relative;
+    z-index: -1;
+  
+  }
+  .elementor-background-overlay {
+  background-image: url(/public/images/fin-cards.png);
+      background-position: bottom right;
+      background-repeat: no-repeat;
+      background-size: 72% auto;
+      opacity: 1;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      position: absolute;
+      z-index: -1;
+  }
+  
+  .second.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+  .part_1{
+    padding: 0px 75px 0px 0px;
+  }
+  
+  .part_1 h1{
+    color: #121212;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 101px;
+    font-weight: 700;
+    line-height: 1em;
+    letter-spacing: -3px;
+  
+    
+  }
+  .financial_image{
+    color: #FFFFFF;
+      padding: 20px 80px 20px 20px;
+      background-image: url(https://web.sociolib.com/finext/wp-content/uploads/sites/12/2023/04/bg-coin.png);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      border-radius: 20px 20px 20px 20px;
+  }
+  
+  .para{
+    padding: 25px 0px 0px 0px;
+    font-size: 16px;
+    line-height: 27px;
+    width: 256px;
+  }
+  .button_div{
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+  }
+  .button_2{
+    margin: 50px 0px 0px 0px;
+  }
+  
+  button.button_3 {
+    height: 4rem;
+    width: 13rem;
+    border-radius: 1rem;
+    background-color: #6A10E9;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+  }
+  
+  .button_4{
+    display: flex;
+    justify-content: center;
+  }
+  .button_4 span{
+  flex-grow: 1;
+  order: 10;
+  display: inline-block;
+  }
+  
+  .text_1{
+    margin-top: 30px;
+  }
+  .text_1 h5{
+    margin-bottom: 20px;
+    color: #121212;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.5rem;
+  }
+  .text_1 h5 span{
+    color: #FF803A;
+    font-size: 24px;
+    font-weight: 700;
+  
+  }
+  
+  
+  
+  
+  
